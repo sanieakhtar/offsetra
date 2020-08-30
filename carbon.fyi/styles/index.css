@@ -4,14 +4,14 @@
   padding: 0;
 }
 
-div{
+div {
   font-size: 8vw;
   text-align: center;
   width: 100%;
   line-height: 600px;
 }
 
-.sections{
+.sections {
   display: inline-flex;
   flex-direction: row;
   height: 100%;
@@ -26,6 +26,10 @@ div{
   background: white;
   color: #B3E93F;
 }
+.stats img{
+  position: relative;
+  top: -200px;
+}
 
 .offset {
   background: #743EE8;
@@ -36,6 +40,10 @@ div{
   background: white;
   color: #743EE8
 }
+.offset img{
+  position: relative;
+  top: -200px;
+}
 
 .about {
   background: #FE7C6F;
@@ -45,6 +53,10 @@ div{
 .about:hover {
   background: white;
   color: #FE7C6F;
+}
+.about img{
+  position: relative;
+  top: -200px;
 }
 
 a {

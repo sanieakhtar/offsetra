@@ -30,16 +30,58 @@
     </a>
   </div>
 
-  <div id="__next">
-    <main>
-      <form><label>Please enter an ETH address:<input type="text" name="a" /></label></form>
-    </main>
+  <div class="container" id="__next">
+    <form action="/action_page.php">
+      <div class="row">
+        <div class="eth-40">
+          <label for="fname">Please enter an ETH address:</label>
+        </div>
+        <div class="address-60">
+          <input type="text" name="a" placeholder="ETH address">
+        </div>
+      </div>
+      <div class="row">
+        <input type="submit" value="analyze">
+      </div>
+    </form>
+  </div>
 
-    <p><a href="https://gitlab.com/de-souza/carbon.fyi/" class="source">Source Code</a></p>
+  <div class="container">
+    <form>
+      <div class="row">
+        <div class="eth-40">
+          <label for="fname">Number of Transactions</label>
+        </div>
+        <div class="address-60">
+          <input type="text" placeholder="000">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="eth-40">
+          <label for="fname">Consumed Gas</label>
+        </div>
+        <div class="address-60">
+          <input type="text" placeholder="000">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="eth-40">
+          <label for="fname">Computed Emissions (kg/CO2e)</label>
+        </div>
+        <div class="address-60">
+          <input type="text" placeholder="000">
+        </div>
+      </div>
+
+      <div class="row">
+        <input type="submit" value="offset">
+      </div>
+    </form>
   </div>
 
   <div class="footer">
-    <p><a href="./index.html" class="source">Back</a></p>
     <img src="../styles/sources/powered_by_offsetra.png" alt="Powered by Offsetra" width="150" class="logo"/>
   </div>
 
