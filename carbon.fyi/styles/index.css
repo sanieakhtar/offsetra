@@ -5,7 +5,7 @@
 }
 
 div{
-  font-size: 80px;
+  font-size: 8vw;
   text-align: center;
   width: 100%;
   line-height: 600px;
@@ -20,7 +20,7 @@ div{
 .stats {
   background: #B3E93F;
   color: white;
-  width: 33%;
+  width: 33.33%;
 }
 .stats:hover {
   background: white;
@@ -30,28 +30,25 @@ div{
 .offset {
   background: #743EE8;
   color: white;
-  width: 33%;
+  width: 33.33%;
 }
-
 .offset:hover {
   background: white;
   color: #743EE8
-  
-}
-
-a {
-  text-decoration: none;
 }
 
 .about {
   background: #FE7C6F;
   color: white;
-  width: 33%;
+  width: 33.33%;
 }
-
 .about:hover {
   background: white;
   color: #FE7C6F;
+}
+
+a {
+  text-decoration: none;
 }
 
 

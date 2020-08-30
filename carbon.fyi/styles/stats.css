@@ -54,37 +54,25 @@
   display: table;
 }
 
-main {
-  font-size: 30px;
-  text-align: left;
-  display: flex;
-  flex-direction: row;
-}
-
-input[type=text] {
-  width: 200px;
-  height: 40px;
-  size: 30px;
-  /* box-sizing: border-box; */
-  border: 2px solid red;
-  border-radius: 4px;
-  margin: 10px;
-}
-
-form {
-  border: 4px solid #743EE8;
-  border-radius: 4px;
-  padding: 5px;
-  margin: 20px;
-  width: 1000px
-}
-
 .footer {
   position: fixed;
   right: 0;
   bottom: 0;
   color: white;
   text-align: right;
+}
+
+.footer.logo {
+  max-width: 100%;
+  height: auto;
+}
+
+.working {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 a {
@@ -95,4 +83,9 @@ a.source {
   font-size: 20px;
   text-align: left;
   text-decoration: none;
+}
+
+p{
+  text-align: center;
+  font-size: 40px;
 }
